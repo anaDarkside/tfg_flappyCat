@@ -235,8 +235,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfbad11f266dc482a8a9adb25d89de3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  music: {fileID: 24100000, guid: d1be7f3dc3e594181837a4e5296895b1, type: 2}
+  musicMixer: {fileID: 24100000, guid: d1be7f3dc3e594181837a4e5296895b1, type: 2}
   backgroundMusic: {fileID: 1875345458}
+  masterVol: 0
 --- !u!4 &824608315
 Transform:
   m_ObjectHideFlags: 0
@@ -346,7 +347,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: d1be7f3dc3e594181837a4e5296895b1, type: 2}
   m_audioClip: {fileID: 8300000, guid: f5b5dec21b77844ed8e9dce760bfe045, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
