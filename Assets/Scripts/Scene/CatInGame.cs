@@ -23,6 +23,8 @@ public class CatInGame : MonoBehaviour
           rigidbody = GetComponent<Rigidbody2D>();
           anim.SetBool("isWalking", true);
           anim.SetBool ("isJumping", false);
+          anim.SetBool("isSitting", false);
+
           preparingJump = false;
           jumping = false;
           falling = false;
