@@ -28,7 +28,7 @@ TextureImporter:
     second: gatoWalk_1
   - first:
       213: 4529983143005456569
-    second: gatoJump_11
+    second: PENULTIMOGATOJUMP
   - first:
       213: 1534856043189870647
     second: gatoWalk_2
@@ -40,7 +40,7 @@ TextureImporter:
     second: gatoWalk_2
   - first:
       213: 3824556598440970751
-    second: gatoJump_12
+    second: ULTIMOGATOJUMP
   - first:
       213: -9048261453423880309
     second: gatoWalk_3
@@ -424,7 +424,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gatoJump_11
+      name: PENULTIMOGATOJUMP
       rect:
         serializedVersion: 2
         x: 15
@@ -508,7 +508,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gatoJump_12
+      name: ULTIMOGATOJUMP
       rect:
         serializedVersion: 2
         x: 26
