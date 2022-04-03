@@ -1,0 +1,1176 @@
+fileFormatVersion: 2
+guid: b200497d4e8f34b8d851e8b42bcd0071
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5155329453913746789
+    second: gatoJump_9
+  - first:
+      213: 7204770629780988948
+    second: gatoWalk_0
+  - first:
+      213: -1853647087330142616
+    second: gatoSit_0
+  - first:
+      213: 2588212914649087680
+    second: gatoWalk_0
+  - first:
+      213: 846060637160886956
+    second: gatoJump_10
+  - first:
+      213: 4459673780331975666
+    second: gatoWalk_1
+  - first:
+      213: 5375339563631871451
+    second: gatoSit_1
+  - first:
+      213: -743488088181382776
+    second: gatoWalk_1
+  - first:
+      213: 4529983143005456569
+    second: gatoJump_11
+  - first:
+      213: 1534856043189870647
+    second: gatoWalk_2
+  - first:
+      213: 4090903139164901817
+    second: gatoSit_2
+  - first:
+      213: 70890844162472663
+    second: gatoWalk_2
+  - first:
+      213: 3824556598440970751
+    second: gatoJump_12
+  - first:
+      213: -9048261453423880309
+    second: gatoWalk_3
+  - first:
+      213: -2040866456042626047
+    second: gatoSit_3
+  - first:
+      213: -8083735324484860340
+    second: gatoWalk_3
+  - first:
+      213: -6259451066617477388
+    second: gatoJump_0
+  - first:
+      213: -8205569332636836888
+    second: gatoWalk_4
+  - first:
+      213: -817883258685747155
+    second: gatoSit_4
+  - first:
+      213: -8539138693546587035
+    second: gatoWalk_4
+  - first:
+      213: 6138709687067493370
+    second: gatoJump_1
+  - first:
+      213: 7612662179595699041
+    second: gatoWalk_5
+  - first:
+      213: -6550946602691146977
+    second: gatoSit_5
+  - first:
+      213: 3438693138561016595
+    second: gatoWalk_5
+  - first:
+      213: -316065903433043183
+    second: gatoJump_2
+  - first:
+      213: -6703114388899107220
+    second: gatoWalk_6
+  - first:
+      213: -6982162925076419240
+    second: gatoWalk_6
+  - first:
+      213: 8712646358379483452
+    second: gatoJump_3
+  - first:
+      213: -1321547070103588450
+    second: gatoWalk_7
+  - first:
+      213: -6698808255621100149
+    second: gatoWalk_7
+  - first:
+      213: 8251158958199829137
+    second: gatoJump_4
+  - first:
+      213: 5189817581599071769
+    second: gatoWalk_8
+  - first:
+      213: 3398792894514594987
+    second: gatoWalk_8
+  - first:
+      213: -4548090959317164324
+    second: gatoJump_5
+  - first:
+      213: -3214091846033598971
+    second: gatoWalk_9
+  - first:
+      213: -2423347385176039590
+    second: gatoWalk_9
+  - first:
+      213: -1175804006790865131
+    second: gatoJump_6
+  - first:
+      213: -10494089801721938
+    second: gatoRun_10
+  - first:
+      213: -2060077739452692812
+    second: gatoWalk_10
+  - first:
+      213: 438074795840127408
+    second: gatoJump_7
+  - first:
+      213: -1857890552658536640
+    second: gatoRun_11
+  - first:
+      213: -2712363839923408216
+    second: gatoWalk_11
+  - first:
+      213: 3690753289101782257
+    second: gatoJump_8
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gatoJump_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2409
+        width: 363
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92dc5ffc279478b0800000000000000
+      internalID: -5155329453913746789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoRun_0
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 2404
+        width: 372
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414634c17bc7cf360800000000000000
+      internalID: 7204770629780988948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoSit_0
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 2403
+        width: 357
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866dfbc8bc58646e0800000000000000
+      internalID: -1853647087330142616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoWalk_0
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 2408
+        width: 351
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cebcb4deed2be320800000000000000
+      internalID: 2588212914649087680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoJump_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2208
+        width: 363
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca25a68baafcdbb00800000000000000
+      internalID: 846060637160886956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoRun_1
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 2206
+        width: 361
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f39fc2cca1f3ed30800000000000000
+      internalID: 4459673780331975666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoSit_1
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 2201
+        width: 340
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd581657ada099a40800000000000000
+      internalID: 5375339563631871451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoWalk_1
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 2210
+        width: 369
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881e631e5899ea5f0800000000000000
+      internalID: -743488088181382776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoJump_11
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2007
+        width: 368
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8095deaabbdde30800000000000000
+      internalID: 4529983143005456569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoRun_2
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 2016
+        width: 360
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730a1b37077ec4510800000000000000
+      internalID: 1534856043189870647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoSit_2
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 2004
+        width: 343
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b154740bbec5c830800000000000000
+      internalID: 4090903139164901817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoWalk_2
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 2010
+        width: 351
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dab120e8dadbf000800000000000000
+      internalID: 70890844162472663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoJump_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1810
+        width: 362
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9437186fd831530800000000000000
+      internalID: 3824556598440970751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoRun_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1810
+        width: 339
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b875fc9d52e1e6280800000000000000
+      internalID: -9048261453423880309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoSit_3
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1802
+        width: 336
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104a19d65c26da3e0800000000000000
+      internalID: -2040866456042626047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoWalk_3
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1809
+        width: 341
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c468dc54d8dc0df80800000000000000
+      internalID: -8083735324484860340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoJump_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1611
+        width: 358
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6435d3b66f129a0800000000000000
+      internalID: -6259451066617477388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoRun_4
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1610
+        width: 336
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb975cba26ff1e80800000000000000
+      internalID: -8205569332636836888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoSit_4
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1595
+        width: 324
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d201c42728b46a4f0800000000000000
+      internalID: -817883258685747155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoWalk_4
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1612
+        width: 346
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ccc5bb992ee7980800000000000000
+      internalID: -8539138693546587035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoJump_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1412
+        width: 351
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af348e4afe3113550800000000000000
+      internalID: 6138709687067493370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoRun_5
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1407
+        width: 356
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1634ad13beb95a960800000000000000
+      internalID: 7612662179595699041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoSit_5
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1396
+        width: 266
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bca04f5cc5615a0800000000000000
+      internalID: -6550946602691146977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoWalk_5
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1411
+        width: 353
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313a087c031b8bf20800000000000000
+      internalID: 3438693138561016595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoJump_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1215
+        width: 325
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113b2444cbb1d9bf0800000000000000
+      internalID: -316065903433043183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoRun_6
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1210
+        width: 357
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6eebd85af0c9f2a0800000000000000
+      internalID: -6703114388899107220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoWalk_6
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1211
+        width: 364
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85deaee00df5a1f90800000000000000
+      internalID: -6982162925076419240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoJump_3
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1011
+        width: 319
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c315fcc83b989e870800000000000000
+      internalID: 8712646358379483452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoRun_7
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1010
+        width: 375
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91748c01fbe8ade0800000000000000
+      internalID: -1321547070103588450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoWalk_7
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1014
+        width: 358
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d0041226d0903a0800000000000000
+      internalID: -6698808255621100149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoJump_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 813
+        width: 327
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19278c02b51028270800000000000000
+      internalID: 8251158958199829137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoRun_8
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 812
+        width: 365
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e1a48f79fe50840800000000000000
+      internalID: 5189817581599071769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoWalk_8
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 813
+        width: 360
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba40aa64120fa2f20800000000000000
+      internalID: 3398792894514594987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoJump_5
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 615
+        width: 332
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde1cbb8e5fe1e0c0800000000000000
+      internalID: -4548090959317164324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoRun_9
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 615
+        width: 347
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50610b9be704563d0800000000000000
+      internalID: -3214091846033598971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoWalk_9
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 614
+        width: 362
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fd533846a8e5ed0800000000000000
+      internalID: -2423347385176039590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoJump_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 416
+        width: 334
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fdfb94c74beafe0800000000000000
+      internalID: -1175804006790865131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoRun_10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 418
+        width: 329
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea790215ea7badff0800000000000000
+      internalID: -10494089801721938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoWalk_10
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 416
+        width: 354
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b68b32f5322963e0800000000000000
+      internalID: -2060077739452692812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoJump_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 215
+        width: 331
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b14a1fa4ba541600800000000000000
+      internalID: 438074795840127408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoRun_11
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 215
+        width: 352
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047db39c2627736e0800000000000000
+      internalID: -1857890552658536640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoWalk_11
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 218
+        width: 355
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a230c3557fbb5ad0800000000000000
+      internalID: -2712363839923408216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoJump_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 13
+        width: 383
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc248edf80383330800000000000000
+      internalID: 3690753289101782257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

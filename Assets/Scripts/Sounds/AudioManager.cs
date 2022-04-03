@@ -17,7 +17,6 @@ public class AudioManager : MonoBehaviour
 
     public void PlayAudio(AudioSource audio) 
     {
-        //if (audio.isPlaying) return;
         audio.Play();
     }
 
@@ -41,8 +40,6 @@ public class AudioManager : MonoBehaviour
     public void MasterVolume()
     {
         staticMusicMixer.SetFloat("MasterVolume", (float)Math.Log10(volumeSlider.value)*20.0f);
-        staticMusicMixer.GetFloat("MasterVolume", out masterVol);
-        volumeSlider.value = (float)Math.Pow(10.0f, masterVol/20.0f);
     }
 
 }
