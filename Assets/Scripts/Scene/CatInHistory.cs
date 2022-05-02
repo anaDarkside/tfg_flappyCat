@@ -7,16 +7,27 @@ public class CatInHistory : MonoBehaviour
     Animator anim;
     new Rigidbody2D rigidbody;
     public float speed;
-    public float finalPosition;
+    float catPosition;
+    float finalPosition;
     private bool walking;
+    public new Camera camera;
+    float cameraWidth;
+    float cameraHeight;
+    public float catWidth;
 
     // Start is called before the first frame update
     void Start()
     {
+        cameraHeight = 2f * camera.orthographicSize;
+        cameraWidth = cameraHeight * camera.aspect;
+
         anim = GetComponent<Animator>();
         rigidbody = GetComponent<Rigidbody2D>();
         anim.SetBool("isWalking", true);
         walking = true;
+        catPosition = camera.transform.position.x - cameraWidth/2f - catWidth/2f*transform.localScale.x;
+
+        finalPosition = camera.transform.position.x + cameraWidth/2f - 10f;
     }
 
     void Update()
@@ -27,6 +38,8 @@ public class CatInHistory : MonoBehaviour
             anim.SetBool("isWalking", false);
             anim.SetBool("isSitting", true);
         }
+
+        transform.position = new Vector3(catPosition, transform.position.y, transform.position.z);
     }
 
     // Update is called once per frame
@@ -34,8 +47,7 @@ public class CatInHistory : MonoBehaviour
     {
         if(walking)
         {
-            transform.position += Vector3.right*Time.deltaTime*speed;
-
+            catPosition = catPosition + speed*Time.deltaTime;
         }
     }
 

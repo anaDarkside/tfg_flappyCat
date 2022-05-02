@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class CatInGame : MonoBehaviour
 {
+    public new Camera camera;
     Animator anim;
     new Rigidbody2D rigidbody;
-    public new CameraMovement camera;
     public float jumpAmount;
     private float positionInCamera;
     private bool preparingJump;
@@ -15,6 +15,8 @@ public class CatInGame : MonoBehaviour
     private float startJump;
 
     public float secondsPrepareJump;
+    public float speed;
+    float catPosition;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +27,7 @@ public class CatInGame : MonoBehaviour
           anim.SetBool ("isJumping", false);
           anim.SetBool("isSitting", false);
 
+          catPosition = transform.position.x;
           preparingJump = false;
           jumping = false;
           falling = false;
@@ -55,11 +58,13 @@ public class CatInGame : MonoBehaviour
             anim.SetBool("isWalking", true);
         }
         
-        transform.position = new Vector3(positionInCamera + camera.transform.position.x, transform.position.y, transform.position.z);
+        transform.position = new Vector3(catPosition, transform.position.y, transform.position.z);
+        camera.transform.position = new Vector3(catPosition - positionInCamera, camera.transform.position.y, camera.transform.position.z);
     }
 
     void FixedUpdate()
     {
+        catPosition = catPosition + speed*Time.deltaTime;
         if(preparingJump && (Time.time - startJump) > secondsPrepareJump)
         {
             rigidbody.AddForce(Vector2.up * jumpAmount, ForceMode2D.Impulse);
