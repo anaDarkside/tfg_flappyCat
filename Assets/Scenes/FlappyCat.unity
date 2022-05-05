@@ -993,6 +993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 519420031}
+  lives: 0
   jumpAmount: 10
   secondsPrepareJump: 0.5
   speed: 5

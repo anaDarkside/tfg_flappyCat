@@ -20,11 +20,11 @@ MonoBehaviour:
     x: 0
     y: 30
     width: 1792
-    height: 962
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+    height: 961
+  m_MinSize: {x: 677, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 48
+  controlID: 90
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -48,7 +48,7 @@ MonoBehaviour:
     x: 336
     y: 83
     width: 1026
-    height: 549
+    height: 548.5
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
@@ -61,9 +61,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.46067116, y: -0.0127133895, z: -0.034140512}
+    m_Target: {x: 634.3125, y: 540, z: 0}
     speed: 2
-    m_Value: {x: 0.45892534, y: -0.012681134, z: -0.034112837}
+    m_Value: {x: 224.3125, y: 709.3875, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -114,9 +114,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.4213552
+    m_Target: 1789.1255
     speed: 2
-    m_Value: 1.4192264
+    m_Value: 690.8905
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -161,11 +161,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1364
-    height: 962
+    height: 961
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 49
+  controlID: 91
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -186,11 +186,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1364
-    height: 570
+    height: 569.5
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 50
+  controlID: 92
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,7 +209,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 336
-    height: 570
+    height: 569.5
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
@@ -240,30 +240,30 @@ MonoBehaviour:
     x: 0
     y: 83
     width: 335
-    height: 549
+    height: 548.5
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c820fbff
-      m_LastClickedID: -319288
-      m_ExpandedIDs: 223bfbffc043fbff2af3fbffa2aafcff24acfcff06adfcffecc1fcff2641fdff801ffeff6c50feff0652feff163dfffff63fffff8844ffff1646ffff6046ffffae46ffffb049ffff0653ffffaa54ffff205afffffa5affffb45dffff4e5effffa25effffb263ffffc2dcffff40fbffff84430000d25c0000f05c0000e2d10000
+      m_SelectedIDs: a65a0000
+      m_LastClickedID: 23206
+      m_ExpandedIDs: f2d2ffff0aeeffff98efffff40fbffff6e5a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: gatoSit_5
-        m_OriginalName: gatoSit_5
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -319288
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 5}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -289,7 +289,7 @@ MonoBehaviour:
     x: 336
     y: 0
     width: 1028
-    height: 570
+    height: 569.5
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 2}
@@ -321,17 +321,17 @@ MonoBehaviour:
     x: 336
     y: 83
     width: 1026
-    height: 549
+    height: 548.5
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames:
   - UnityEditor.GameView
   m_SerializedViewValues:
-  - /Users/ana/GIT/TFG_FlappyCat/tfg_flappyCat/Library/PlayModeViewStates/e68b7c56a9c8f41b2aafdc269e4e68c0
+  - /Users/ana/GIT/TFG_FlappyCat/tfg_flappyCat/Library/PlayModeViewStates/fcbe0d5f6f39344efbb5d0cc4ce06b4c
   m_PlayModeViewName: Device Simulator
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 1}
-  m_TargetSize: {x: 2658, y: 960}
+  m_TargetSize: {x: 2340, y: 1080}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -351,7 +351,7 @@ MonoBehaviour:
     fitToScreenEnabled: 0
     rotationDegree: 90
     highlightSafeAreaEnabled: 0
-    friendlyName: Samsung Galaxy Z Fold2 5G (Phone)
+    friendlyName: Google Pixel 5
     networkReachability: 1
     systemLanguage: 10
 --- !u!114 &9
@@ -370,9 +370,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 570
+    y: 569.5
     width: 1364
-    height: 392
+    height: 391.5
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 10}
@@ -402,9 +402,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 653
+    y: 652.5
     width: 1363
-    height: 371
+    height: 370.5
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -419,22 +419,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Images/cat
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Images/cat
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/ana/GIT/TFG_FlappyCat/tfg_flappyCat
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e44e0000
-    m_LastClickedID: 20196
-    m_ExpandedIDs: 0000000054440000564400001a45000020450000e44e000000ca9a3b
+    m_SelectedIDs: e4440000
+    m_LastClickedID: 17636
+    m_ExpandedIDs: 00000000ca440000cc440000ce440000d0440000d244000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -462,7 +462,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005444000056440000
+    m_ExpandedIDs: 00000000ca440000cc440000ce440000d0440000d2440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -487,10 +487,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c820fbff
-    m_LastClickedInstanceID: -319288
+    m_SelectedInstanceIDs: a65a0000
+    m_LastClickedInstanceID: 23206
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c623000028440000
+    m_ExpandedInstanceIDs: c62300002844000032580000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -514,7 +514,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 63.999695}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -539,9 +539,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 653
-    width: 1368
-    height: 371
+    y: 652.5
+    width: 1363
+    height: 370.5
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &12
 MonoBehaviour:
@@ -561,9 +561,9 @@ MonoBehaviour:
     x: 1364
     y: 0
     width: 428
-    height: 962
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+    height: 961
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -592,7 +592,7 @@ MonoBehaviour:
     x: 1364
     y: 83
     width: 427
-    height: 941
+    height: 940
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
