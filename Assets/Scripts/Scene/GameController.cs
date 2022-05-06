@@ -8,6 +8,9 @@ public class GameController : MonoBehaviour
     private const string MainMenu = "MainMenu";
     private const string FlappyCat = "FlappyCat";
     private const string HistoryGame = "HistoryGame";
+    private const string GameOver = "GameOver";
+    private const string Credits = "Credits";
+
     // Poner aqui los nombres de las escenas
 
     // Start is called before the first frame update
@@ -29,5 +32,17 @@ public class GameController : MonoBehaviour
 
     public void loadHistoryGame(){
         SceneManager.LoadScene(HistoryGame);
+    }
+
+    public void loadGameOverScene(){
+        SceneManager.LoadScene(GameOver);
+    }
+
+    public void loadMainMenuScene(){
+        SceneManager.LoadScene(MainMenu);
+    }
+
+    public void loadCreditsScene(){
+        SceneManager.LoadScene(Credits);
     }
 }

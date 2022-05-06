@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - BonusFood
+  - BonusToy
+  - Cat
   layers:
   - Default
   - TransparentFX
@@ -38,12 +42,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Background
     uniqueID: 1583894123
     locked: 0
   - name: Gato
     uniqueID: 2391733263
+    locked: 0
+  - name: SpawnObjects
+    uniqueID: 133681983
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0

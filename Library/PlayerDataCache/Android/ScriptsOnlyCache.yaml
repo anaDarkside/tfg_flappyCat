@@ -2,18 +2,19 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AudioManager
-    - CameraMovement
     - CatInGame
     - CatInHistory
+    - CatInMainMenu
+    - DestroyTrigger
     - GameController
+    - HistoryController
     - PauseMenu
-    - TextManager
+    - SpawnObjects
     - WindowManager
     - background
+    - initializeCamera
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
-    Unity.2D.Animation.Runtime.dll:
-    - UnityEngine.U2D.Animation.BufferManager
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
     - UnityEditor.U2D.IK.IKGizmos
@@ -27,16 +28,11 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
+    Unity.DeviceSimulator.Editor.dll:
+    - UnityEditor.DeviceSimulation.DeviceInfoAsset
+    - UnityEditor.DeviceSimulation.SimulatorWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -51,6 +47,67 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   sceneClasses:
+    Assets/Scenes/Credits.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1480}
+    - Class: 114
+      Script: {instanceID: 1578}
+    - Class: 114
+      Script: {instanceID: 2292}
+    - Class: 114
+      Script: {instanceID: 2608}
+    - Class: 114
+      Script: {instanceID: 2724}
+    - Class: 114
+      Script: {instanceID: 2890}
+    - Class: 114
+      Script: {instanceID: 3138}
+    - Class: 114
+      Script: {instanceID: 3400}
+    - Class: 114
+      Script: {instanceID: 3520}
+    - Class: 114
+      Script: {instanceID: 3838}
+    - Class: 114
+      Script: {instanceID: 4048}
+    - Class: 114
+      Script: {instanceID: 5358}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/FlappyCat.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -65,6 +122,8 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 50
+      Script: {instanceID: 0}
+    - Class: 60
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
@@ -83,31 +142,35 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1534}
+      Script: {instanceID: 1480}
     - Class: 114
-      Script: {instanceID: 1734}
+      Script: {instanceID: 1588}
     - Class: 114
-      Script: {instanceID: 2264}
+      Script: {instanceID: 1702}
     - Class: 114
-      Script: {instanceID: 2690}
+      Script: {instanceID: 1748}
     - Class: 114
-      Script: {instanceID: 2856}
+      Script: {instanceID: 2292}
     - Class: 114
-      Script: {instanceID: 3094}
+      Script: {instanceID: 2608}
     - Class: 114
-      Script: {instanceID: 3350}
+      Script: {instanceID: 2724}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 2890}
     - Class: 114
-      Script: {instanceID: 17348}
+      Script: {instanceID: 3138}
     - Class: 114
-      Script: {instanceID: 23276}
+      Script: {instanceID: 3400}
     - Class: 114
-      Script: {instanceID: 51952}
+      Script: {instanceID: 3520}
     - Class: 114
-      Script: {instanceID: 56750}
+      Script: {instanceID: 5204}
     - Class: 114
-      Script: {instanceID: 58748}
+      Script: {instanceID: 5358}
+    - Class: 114
+      Script: {instanceID: 45606}
+    - Class: 114
+      Script: {instanceID: 56958}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -132,6 +195,67 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 245
       Script: {instanceID: 0}
+    Assets/Scenes/GameOver.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1480}
+    - Class: 114
+      Script: {instanceID: 1578}
+    - Class: 114
+      Script: {instanceID: 2292}
+    - Class: 114
+      Script: {instanceID: 2608}
+    - Class: 114
+      Script: {instanceID: 2724}
+    - Class: 114
+      Script: {instanceID: 2890}
+    - Class: 114
+      Script: {instanceID: 3138}
+    - Class: 114
+      Script: {instanceID: 3400}
+    - Class: 114
+      Script: {instanceID: 3520}
+    - Class: 114
+      Script: {instanceID: 3838}
+    - Class: 114
+      Script: {instanceID: 4048}
+    - Class: 114
+      Script: {instanceID: 5358}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/HistoryGame.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -145,6 +269,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
@@ -156,27 +282,29 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1534}
+      Script: {instanceID: 1480}
     - Class: 114
-      Script: {instanceID: 2264}
+      Script: {instanceID: 2292}
     - Class: 114
-      Script: {instanceID: 2690}
+      Script: {instanceID: 2608}
     - Class: 114
-      Script: {instanceID: 2856}
+      Script: {instanceID: 2724}
     - Class: 114
-      Script: {instanceID: 3094}
+      Script: {instanceID: 2890}
     - Class: 114
-      Script: {instanceID: 3350}
+      Script: {instanceID: 3138}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3400}
     - Class: 114
-      Script: {instanceID: 27546}
+      Script: {instanceID: 3520}
     - Class: 114
-      Script: {instanceID: 35354}
+      Script: {instanceID: 4048}
     - Class: 114
-      Script: {instanceID: 72476}
+      Script: {instanceID: 4250}
     - Class: 114
-      Script: {instanceID: 77324}
+      Script: {instanceID: 5358}
+    - Class: 114
+      Script: {instanceID: 38866}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -208,6 +336,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
@@ -217,27 +347,33 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1534}
+      Script: {instanceID: 1480}
     - Class: 114
-      Script: {instanceID: 1734}
+      Script: {instanceID: 1578}
     - Class: 114
-      Script: {instanceID: 2264}
+      Script: {instanceID: 1588}
     - Class: 114
-      Script: {instanceID: 2690}
+      Script: {instanceID: 1748}
     - Class: 114
-      Script: {instanceID: 2856}
+      Script: {instanceID: 2292}
     - Class: 114
-      Script: {instanceID: 3094}
+      Script: {instanceID: 2608}
     - Class: 114
-      Script: {instanceID: 3350}
+      Script: {instanceID: 2724}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 2890}
     - Class: 114
-      Script: {instanceID: 17348}
+      Script: {instanceID: 3138}
     - Class: 114
-      Script: {instanceID: 27546}
+      Script: {instanceID: 3400}
     - Class: 114
-      Script: {instanceID: 35354}
+      Script: {instanceID: 3520}
+    - Class: 114
+      Script: {instanceID: 3838}
+    - Class: 114
+      Script: {instanceID: 4048}
+    - Class: 114
+      Script: {instanceID: 5358}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -265,22 +401,34 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: 5ab533713adae59372fb3e10a585c186
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: AnimationPlayableAsset
-  - hash:
-      serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
   - hash:
       serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
       Hash: 77aaaaa51f7a8d8ff333a879741e47d2
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: b7512264d05400c061c5f81d8ffddd41
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WindowManager
+  - hash:
+      serializedVersion: 2
+      Hash: 7911e32cca2432d2095b5634540f8796
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioManager
   - hash:
       serializedVersion: 2
       Hash: 71b711096c6c32621c1d4c02310898b7
@@ -317,6 +465,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 930b2a7c015542327cee6af349728cdd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseMenu
   - hash:
       serializedVersion: 2
       Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
@@ -397,6 +551,12 @@ ScriptsOnlyBuild:
     className: IKManager2D
   - hash:
       serializedVersion: 2
+      Hash: abf655acd7c327c038432929ed4ac2b6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: initializeCamera
+  - hash:
+      serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -437,6 +597,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 1aee57c2754efb1f37d56258bc414132
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TextManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -541,6 +707,12 @@ ScriptsOnlyBuild:
     className: ContentSizeFitter
   - hash:
       serializedVersion: 2
+      Hash: d5d56547a83efa3ef9857f5d7a813539
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CatInMainMenu
+  - hash:
+      serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -569,6 +741,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameController
   - hash:
       serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
@@ -605,6 +783,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 6f6eedf83acbcc95b5b34114a82e2285
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CatInHistory
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -745,10 +929,22 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: 705f6777a83f1f079a4a5a6880126c49
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CatInGame
+  - hash:
+      serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 5111a02a555dd5c189289db82ba5b35e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: background
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -793,61 +989,33 @@ ScriptsOnlyBuild:
     className: FabrikSolver2D
   - hash:
       serializedVersion: 2
-      Hash: 7911e32cca2432d2095b5634540f8796
+      Hash: b6245e4769fd8faf12f1181fbdffc911
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: AudioManager
+    className: button
   - hash:
       serializedVersion: 2
-      Hash: 930b2a7c015542327cee6af349728cdd
+      Hash: 79403ead5d2396b0643d9dd64824fef1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PauseMenu
+    className: HistoryController
   - hash:
       serializedVersion: 2
-      Hash: b7512264d05400c061c5f81d8ffddd41
+      Hash: 04bdd0a0559509f2be61ffcdaf937d9b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: WindowManager
+    className: SpawnObjects
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: GameController
-  - hash:
-      serializedVersion: 2
-      Hash: 88df309734b000163f01322e4d93ca70
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CatInGame
-  - hash:
-      serializedVersion: 2
-      Hash: a77369cdc1b5c7578216321df26fde47
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraMovement
-  - hash:
-      serializedVersion: 2
-      Hash: ea0df3fa2361b1cf1c8a4dee0752cd2b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: background
-  - hash:
-      serializedVersion: 2
-      Hash: ed8105c4e9044217daf8d9b6e3f552ba
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CatInHistory
-  - hash:
-      serializedVersion: 2
-      Hash: 1aee57c2754efb1f37d56258bc414132
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TextManager
+    className: DestroyTrigger
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/HistoryGame.unity
   - Assets/Scenes/FlappyCat.unity
-  playerPath: /Users/ana/GIT/TFG_FlappyCat/tfg_flappyCat/Build/buildPac2FlappyCat.apk
+  - Assets/Scenes/GameOver.unity
+  - Assets/Scenes/Credits.unity
+  playerPath: /Users/ana/GIT/TFG_FlappyCat/tfg_flappyCat/Build/buildPac3FlappyCat.apk

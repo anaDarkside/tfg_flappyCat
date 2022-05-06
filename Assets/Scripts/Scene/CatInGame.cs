@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CatInGame : MonoBehaviour
 {
@@ -115,7 +116,7 @@ public class CatInGame : MonoBehaviour
         --lives;
         if (lives <= 0)
         {
-            // call GameOver
+            SceneManager.LoadScene("GameOver");
         }
     }
 
@@ -124,4 +125,23 @@ public class CatInGame : MonoBehaviour
         return lives;
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.tag == "Enemy")
+        {
+            lostLife();
+        }
+        else if(other.gameObject.tag == "BonusFood")
+        {
+            Debug.Log("Entra");
+            addLife();
+        }
+        else if(other.gameObject.tag == "BonusToy")
+        {
+            //Superpoder
+        }
+        else{
+            Debug.Log("Correct tag");
+        }
+    }
 }
