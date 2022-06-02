@@ -25,6 +25,15 @@ public class CatInGame : MonoBehaviour
     public float speed;
     float catPosition;
     List<GameObject> arrayHearts;
+    
+    public Text puntuation;
+    private float puntuationNumber;
+    private bool isPlay;
+    private bool isActivatePower;
+    private float maxTime;
+    public GameObject power;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -50,6 +59,22 @@ public class CatInGame : MonoBehaviour
             arrayHearts.Add(newHeart);
             positionHeart.position = new Vector2(positionHeart.position.x + offSet , positionHeart.position.y);
         }
+
+        puntuationNumber = 0.0F;
+        
+        puntuation.text = puntuationNumber.ToString();
+        isPlay = true;
+
+        maxTime = 0.0F;
+        disablePower();
+    }
+
+    public void startPuntuation(){
+        isPlay = true;
+    }
+
+    public void pausePuntuation(){
+        isPlay = false;
     }
 
     // Update is called once per frame
@@ -90,6 +115,32 @@ public class CatInGame : MonoBehaviour
             }
             
         }
+
+        if (isPlay == true){
+            puntuationNumber +=  Time.deltaTime;
+        }   
+        //show puntuation
+        puntuation.text = ((int)puntuationNumber).ToString();
+
+        // cat power
+        if (isActivatePower == true && maxTime > 0.0)
+        {
+            maxTime -= Time.deltaTime;
+
+        } else if (isActivatePower == true){
+            disablePower();
+        }
+    }
+
+    void disablePower(){
+        isActivatePower = false;
+        power.SetActive(false);
+    }
+
+    void activatePower(){
+        maxTime = 5.0F;
+        isActivatePower = true;
+        power.SetActive(true);
     }
 
     void FixedUpdate()
@@ -116,6 +167,7 @@ public class CatInGame : MonoBehaviour
         --lives;
         if (lives <= 0)
         {
+            UtilsStatic.puntuationFinal = (int) puntuationNumber;
             SceneManager.LoadScene("GameOver");
         }
     }
@@ -129,19 +181,21 @@ public class CatInGame : MonoBehaviour
     {
         if(other.gameObject.tag == "Enemy")
         {
-            lostLife();
+            if (isActivatePower != true){
+                lostLife();
+            } 
         }
         else if(other.gameObject.tag == "BonusFood")
         {
-            Debug.Log("Entra");
             addLife();
         }
         else if(other.gameObject.tag == "BonusToy")
         {
-            //Superpoder
+            activatePower();
         }
         else{
-            Debug.Log("Correct tag");
+            Debug.Log("incorrect tag");
         }
+        other.gameObject.SetActive(false);
     }
 }

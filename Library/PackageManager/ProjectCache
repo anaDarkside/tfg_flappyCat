@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637870256320000000
+      ticks: 637874747660000000
     m_Hash: 487975224
   m_LockFileStatus:
     m_FilePath: /Users/ana/GIT/TFG_FlappyCat/tfg_flappyCat/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637870256320000000
+      ticks: 637874747660000000
     m_Hash: 691823271
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

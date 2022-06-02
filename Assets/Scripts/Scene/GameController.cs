@@ -10,6 +10,7 @@ public class GameController : MonoBehaviour
     private const string HistoryGame = "HistoryGame";
     private const string GameOver = "GameOver";
     private const string Credits = "Credits";
+    
 
     // Poner aqui los nombres de las escenas
 

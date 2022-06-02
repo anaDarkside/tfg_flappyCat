@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -3157432591551988478}
   m_Layer: 0
   m_Name: ratoli
-  m_TagString: BonusFood
+  m_TagString: BonusToy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

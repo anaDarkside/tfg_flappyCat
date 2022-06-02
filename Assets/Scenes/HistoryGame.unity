@@ -660,7 +660,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Hola, \xA1soy Byron!\nHe ido a dar un paseo y ahora quiero volver a casa,
     \xBFme ayudas?\n\nTen cuidado porque hay objetos buenos, como comida o pienso
-    que me ayudar\xE1n, \xA1pero tambi\xE9n hay objetos que me quitar\xE1n vidas
+    que me ayudar\xE1n, \xA1pero tambi\xE9n hay objetos que me quitar\xE1n vidas,
     como avispas o limones!"
 --- !u!222 &1438727912
 CanvasRenderer:
@@ -844,7 +844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6857004b9ecd94aceab21040c9a6659d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 10
   camera: {fileID: 360947709}
   catWidth: 2.77
 --- !u!4 &1212613210940907756
@@ -918,7 +918,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1903234033
-  m_SortingLayer: 2
+  m_SortingLayer: -2
   m_SortingOrder: 3
   m_Sprite: {fileID: 1642700215715679838, guid: b200497d4e8f34b8d851e8b42bcd0071, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
